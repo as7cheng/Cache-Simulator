@@ -1,0 +1,22 @@
+This is the handout directory for the CS:APP Cache Lab. 
+
+************************
+Running the autograders:
+************************
+
+Before running the autograders, compile your code:
+    linux> make clean && make
+
+Check the correctness of your simulator:
+    linux> ./test-csim
+
+******
+Files:
+******
+
+csim.c       Your cache simulator
+Makefile     Builds the simulator
+README       This file
+csim-ref     The executable reference cache simulator
+test-csim    Tests your cache simulator
+traces/      Trace files used by test-csim
